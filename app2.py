@@ -39,6 +39,6 @@ def api():
     return response
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=False,host='0.0.0.0')
 else:
     print("You can only ask about Medical Related Questions")
